@@ -1,0 +1,377 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Fredoka',sans-serif;
+    min-height:100vh;
+    overflow-x:hidden;
+
+    background:
+    linear-gradient(
+        rgba(255,255,255,0.25),
+        rgba(255,255,255,0.25)
+    ),
+    url("background.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+/* ====================== */
+/* OPENING SCREEN */
+/* ====================== */
+
+#startScreen{
+
+    position:fixed;
+
+    inset:0;
+
+    background:url("opening.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    padding-bottom:100px;
+
+    z-index:9999;
+}
+
+#startBtn{
+
+    background:#ffc107;
+
+    color:white;
+
+    border:none;
+
+    border-radius:25px;
+
+    padding:22px 70px;
+
+    font-size:40px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.35);
+
+    transition:.2s;
+}
+
+#startBtn:hover{
+    transform:scale(1.05);
+}
+
+#startBtn:active{
+    transform:scale(.98);
+}
+
+/* ====================== */
+/* GAME SCREEN */
+/* ====================== */
+
+.container{
+
+    max-width:1400px;
+
+    margin:auto;
+
+    padding:20px;
+}
+
+#question-number{
+
+    color:#111827;
+
+    font-size:32px;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+}
+
+.question-box{
+
+    background:rgba(255,255,255,.55);
+
+    backdrop-filter:blur(8px);
+
+    border-radius:25px;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.12);
+}
+
+#question{
+
+    color:#1f2937;
+
+    font-size:56px;
+
+    line-height:1.25;
+
+    font-weight:600;
+}
+
+/* ====================== */
+/* OPTIONS */
+/* ====================== */
+
+.options{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+}
+
+.option-btn{
+
+    width:100%;
+
+    background:#f57c00;
+
+    color:white;
+
+    border:none;
+
+    border-radius:24px;
+
+    padding:25px;
+
+    font-size:48px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,.18);
+
+    transition:.2s;
+}
+
+.option-btn:hover{
+
+    transform:translateY(-3px);
+}
+
+.correct{
+
+    background:#16a34a !important;
+}
+
+.wrong{
+
+    background:#dc2626 !important;
+}
+
+/* ====================== */
+/* FOOTER */
+/* ====================== */
+
+.footer{
+
+    margin-top:25px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+}
+
+#actionBtn{
+
+    background:#00d600;
+
+    color:white;
+
+    border:none;
+
+    border-radius:22px;
+
+    padding:24px 50px;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    min-width:320px;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.18);
+
+    transition:.2s;
+}
+
+#actionBtn:hover{
+    transform:translateY(-2px);
+}
+
+.score-box{
+
+    flex:1;
+
+    text-align:center;
+
+    font-size:48px;
+
+    font-weight:700;
+
+    color:#111827;
+}
+
+#nextBtn{
+
+    background:#00d600;
+
+    color:white;
+
+    border:none;
+
+    border-radius:18px;
+
+    padding:18px 40px;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    margin-left:auto;
+}
+
+/* ====================== */
+/* TABLET */
+/* ====================== */
+
+@media(max-width:1024px){
+
+    #question{
+        font-size:42px;
+    }
+
+    .option-btn{
+        font-size:34px;
+    }
+
+    .score-box{
+        font-size:36px;
+    }
+    #actionBtn{
+    font-size:32px;
+    padding:22px;
+}
+}
+
+/* ====================== */
+/* HP */
+/* ====================== */
+
+@media(max-width:768px){
+
+    .container{
+        padding:15px;
+    }
+
+    #question-number{
+
+        text-align:center;
+
+        font-size:24px;
+    }
+
+    #question{
+
+        text-align:center;
+
+        font-size:34px;
+    }
+
+    .option-btn{
+
+        font-size:24px;
+
+        padding:18px;
+    }
+
+    .footer{
+
+        flex-direction:column;
+
+        gap:15px;
+    }
+
+    #speakBtn,
+    #nextBtn{
+
+        width:100%;
+    }
+
+    .score-box{
+
+        font-size:30px;
+    }
+
+    #startBtn{
+
+        font-size:28px;
+
+        padding:18px 50px;
+    }
+    #actionBtn{
+    font-size:32px;
+    padding:22px;
+}
+}
+
+/* ====================== */
+/* HP KECIL */
+/* ====================== */
+
+@media(max-width:480px){
+
+    #question{
+        font-size:28px;
+    }
+
+    .option-btn{
+        font-size:20px;
+    }
+
+    .score-box{
+        font-size:26px;
+    }
+    #actionBtn{
+    font-size:32px;
+    padding:22px;
+}
+}

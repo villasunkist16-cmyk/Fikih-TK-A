@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>Cerdas Cermat Bersama Apih Bobby</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ===================== -->
+    <!-- OPENING SCREEN -->
+    <!-- ===================== -->
+
+    <div id="startScreen">
+
+        <button id="startBtn">
+            START GAME
+        </button>
+
+    </div>
+
+    <!-- ===================== -->
+    <!-- GAME SCREEN -->
+    <!-- ===================== -->
+
+    <div id="gameScreen" style="display:none;">
+
+        <div class="container">
+
+            <!-- Nomor Soal -->
+
+            <div id="question-number">
+                Soal 1 dari 20
+            </div>
+
+            <!-- Pertanyaan -->
+
+            <div class="question-box">
+
+                <div id="question">
+                    Memuat soal...
+                </div>
+
+            </div>
+
+            <!-- Pilihan Jawaban -->
+
+            <div id="options" class="options"></div>
+
+            <!-- Footer -->
+
+            <div class="footer">
+
+                <!-- Tombol Pintar -->
+                <!-- Ulangi Soal -->
+                <!-- Next -->
+                <!-- Main Lagi -->
+
+                <button id="actionBtn">
+                    🔊 Ulangi Soal
+                </button>
+
+                <!-- Score -->
+
+                <div class="score-box">
+                    Score :
+                    <span id="score">0</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ===================== -->
+    <!-- AUDIO -->
+    <!-- ===================== -->
+
+    <!-- Musik Opening -->
+
+    <audio
+        id="openingMusic"
+        src="opening.mp3"
+        loop>
+    </audio>
+
+    <!-- Musik Game -->
+
+    <audio
+        id="bgMusic"
+        src="bgm.mp3"
+        loop>
+    </audio>
+
+    <!-- ===================== -->
+    <!-- JAVASCRIPT -->
+    <!-- ===================== -->
+
+    <script src="app.js"></script>
+
+</body>
+</html>

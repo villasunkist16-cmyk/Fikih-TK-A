@@ -1,0 +1,253 @@
+[
+{
+"question": "Agama yang kita pelajari adalah?",
+"options": ["Islam", "Hindu", "Buddha"],
+"answer": "Islam"
+},
+{
+"question": "Nabi terakhir adalah Nabi?",
+"options": ["Nuh", "Muhammad SAW", "Ibrahim"],
+"answer": "Muhammad SAW"
+},
+{
+"question": "Kitab suci umat Islam adalah?",
+"options": ["Al-Qur'an", "Majalah", "Buku cerita"],
+"answer": "Al-Qur'an"
+},
+{
+"question": "Kita salat menghadap?",
+"options": ["Gunung", "Ka'bah", "Laut"],
+"answer": "Ka'bah"
+},
+{
+"question": "Allah adalah?",
+"options": ["Teman", "Tuhan", "Guru"],
+"answer": "Tuhan"
+},
+{
+"question": "Sebelum makan kita membaca?",
+"options": ["Basmalah", "Lagu", "Pantun"],
+"answer": "Basmalah"
+},
+{
+"question": "Setelah makan kita mengucapkan?",
+"options": ["Maaf", "Alhamdulillah", "Permisi"],
+"answer": "Alhamdulillah"
+},
+{
+"question": "Hari raya umat Islam adalah?",
+"options": ["Idul Fitri", "Natal", "Waisak"],
+"answer": "Idul Fitri"
+},
+{
+"question": "Tempat ibadah umat Islam adalah?",
+"options": ["Sekolah", "Masjid", "Pasar"],
+"answer": "Masjid"
+},
+{
+"question": "Orang yang mengumandangkan azan disebut?",
+"options": ["Muazin", "Pedagang", "Dokter"],
+"answer": "Muazin"
+},
+{
+"question": "Azan adalah panggilan untuk?",
+"options": ["Bermain", "Belajar", "Salat"],
+"answer": "Salat"
+},
+{
+"question": "Salat Subuh berjumlah?",
+"options": ["2 rakaat", "3 rakaat", "4 rakaat"],
+"answer": "2 rakaat"
+},
+{
+"question": "Salat Magrib berjumlah?",
+"options": ["2 rakaat", "3 rakaat", "5 rakaat"],
+"answer": "3 rakaat"
+},
+{
+"question": "Bulan puasa disebut bulan?",
+"options": ["Ramadan", "Januari", "Mei"],
+"answer": "Ramadan"
+},
+{
+"question": "Saat puasa kita tidak boleh?",
+"options": ["Salat", "Makan dan minum", "Tidur"],
+"answer": "Makan dan minum"
+},
+{
+"question": "Orang tua harus kita?",
+"options": ["Hormati", "Lawan", "Marahi"],
+"answer": "Hormati"
+},
+{
+"question": "Guru harus kita?",
+"options": ["Hormati", "Ejek", "Jauhi"],
+"answer": "Hormati"
+},
+{
+"question": "Jika diberi sesuatu kita mengucapkan?",
+"options": ["Tolong", "Terima kasih", "Permisi"],
+"answer": "Terima kasih"
+},
+{
+"question": "Jika berbuat salah kita mengucapkan?",
+"options": ["Maaf", "Halo", "Sampai jumpa"],
+"answer": "Maaf"
+},
+{
+"question": "Warna kubah masjid sering berwarna?",
+"options": ["Beragam warna", "Transparan", "Tak berwarna"],
+"answer": "Beragam warna"
+}
+,
+{
+  "question": "Huruf hijaiyah pertama adalah?",
+  "options": ["Alif", "Ba", "Ta"],
+  "answer": "Alif"
+},
+{
+  "question": "Setelah huruf Alif adalah?",
+  "options": ["Jim", "Ba", "Kaf"],
+  "answer": "Ba"
+},
+{
+  "question": "Membaca Al-Qur'an mendapat?",
+  "options": ["Pahala", "Hukuman", "Mainan"],
+  "answer": "Pahala"
+},
+{
+  "question": "Anak yang jujur akan disayang?",
+  "options": ["Allah", "Musuh", "Semut"],
+  "answer": "Allah"
+},
+{
+  "question": "Kita harus berkata?",
+  "options": ["Baik", "Kasar", "Kotor"],
+  "answer": "Baik"
+},
+{
+  "question": "Sebelum tidur kita membaca?",
+  "options": ["Doa", "Lagu", "Cerita"],
+  "answer": "Doa"
+},
+{
+  "question": "Bangun tidur mengucapkan?",
+  "options": ["Alhamdulillah", "Selamat malam", "Permisi"],
+  "answer": "Alhamdulillah"
+},
+{
+  "question": "Pakaian ke masjid harus?",
+  "options": ["Bersih", "Kotor", "Sobek"],
+  "answer": "Bersih"
+},
+{
+  "question": "Anak yang rajin salat mendapat?",
+  "options": ["Pahala", "Marah", "Hukuman"],
+  "answer": "Pahala"
+},
+{
+  "question": "Nabi Muhammad SAW lahir di kota?",
+  "options": ["Makkah", "Jakarta", "Bandung"],
+  "answer": "Makkah"
+},
+{
+  "question": "Ka'bah berada di kota?",
+  "options": ["Madinah", "Makkah", "Surabaya"],
+  "answer": "Makkah"
+},
+{
+  "question": "Kita berdoa kepada?",
+  "options": ["Allah", "Teman", "Guru"],
+  "answer": "Allah"
+},
+{
+  "question": "Salat Jumat dilakukan pada hari?",
+  "options": ["Senin", "Jumat", "Minggu"],
+  "answer": "Jumat"
+},
+{
+  "question": "Sebelum salat kita berwudu agar?",
+  "options": ["Bersih dan suci", "Cepat tinggi", "Cepat tidur"],
+  "answer": "Bersih dan suci"
+},
+{
+  "question": "Air digunakan untuk?",
+  "options": ["Wudu", "Menulis", "Menggambar"],
+  "answer": "Wudu"
+},
+{
+  "question": "Malaikat diciptakan dari?",
+  "options": ["Cahaya", "Kayu", "Batu"],
+  "answer": "Cahaya"
+},
+{
+  "question": "Allah menciptakan?",
+  "options": ["Langit dan bumi", "Mobil saja", "Rumah saja"],
+  "answer": "Langit dan bumi"
+},
+{
+  "question": "Anak yang suka berbagi adalah anak?",
+  "options": ["Baik", "Nakal", "Jahat"],
+  "answer": "Baik"
+},
+{
+  "question": "Saat mendengar azan kita?",
+  "options": ["Diam dan menjawab azan", "Berteriak", "Menangis"],
+  "answer": "Diam dan menjawab azan"
+},
+{
+  "question": "Puasa melatih kita untuk?",
+  "options": ["Sabar", "Marah", "Malas"],
+  "answer": "Sabar"
+},
+{
+  "question": "Nabi Muhammad SAW memiliki sifat?",
+  "options": ["Jujur", "Bohong", "Curang"],
+  "answer": "Jujur"
+},
+{
+  "question": "Orang yang membantu teman adalah anak?",
+  "options": ["Baik", "Jahat", "Nakal"],
+  "answer": "Baik"
+},
+{
+  "question": "Kita harus menyayangi?",
+  "options": ["Orang tua", "Musuh saja", "Mainan saja"],
+  "answer": "Orang tua"
+},
+{
+  "question": "Masjid adalah tempat untuk?",
+  "options": ["Salat", "Belanja", "Tidur"],
+  "answer": "Salat"
+},
+{
+  "question": "Saat masuk masjid kita mendahulukan kaki?",
+  "options": ["Kanan", "Kiri", "Belakang"],
+  "answer": "Kanan"
+},
+{
+  "question": "Saat keluar masjid kita mendahulukan kaki?",
+  "options": ["Kanan", "Kiri", "Dua-duanya"],
+  "answer": "Kiri"
+},
+{
+  "question": "Huruf hijaiyah setelah Ba adalah?",
+  "options": ["Ta", "Alif", "Nun"],
+  "answer": "Ta"
+},
+{
+  "question": "Islam mengajarkan hidup?",
+  "options": ["Rukun", "Bertengkar", "Nakal"],
+  "answer": "Rukun"
+},
+{
+  "question": "Allah Maha?",
+  "options": ["Esa", "Banyak", "Dua"],
+  "answer": "Esa"
+},
+{
+  "question": "Sebagai anak muslim kita harus rajin?",
+  "options": ["Salat dan berdoa", "Bertengkar", "Berbohong"],
+  "answer": "Salat dan berdoa"
+}
+]
